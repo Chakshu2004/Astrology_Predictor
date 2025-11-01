@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jyoti | Astrology Prediction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Jyoti ✨</h1>
+    <p class="subtitle">Discover what the stars say about you</p>
+    <form id="astroForm">
+      <div class="input-group">
+        <input type="text" id="firstName" placeholder="First Name" required />
+        <input type="text" id="lastName" placeholder="Last Name" required />
+      </div>
+      <div class="input-group">
+        <input type="number" id="day" placeholder="Day" min="1" max="31" required />
+        <input type="number" id="month" placeholder="Month" min="1" max="12" required />
+        <input type="number" id="year" placeholder="Year" min="1900" max="2025" required />
+      </div>
+      <button type="submit" id="predictBtn">🔮 Predict</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <div class="stars"></div>
+
+  <script src="./first.js"></script>
+</body>
+</html>
