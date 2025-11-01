@@ -9,7 +9,6 @@
 This project takes basic information from the user — name and date of birth — and reveals a combination of:
 - Their **Zodiac sign**
 - A heartfelt **compliment**
-- A deep **victim card line**
 - A small **recommendation**
 - A fun **future prediction**
 - Their **lucky color** and **lucky number**
